@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="mediaquery.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+<link rel="manifest" href="./assets/favicon/site.webmanifest">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+    <script src="https://kit.fontawesome.com/42368fddd1.js" crossorigin="anonymous"></script>
+
+    
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">@Aditya <i class="fa-solid fa-sun fa-spin" style="color: #ffd43b;"></i></i></div>
+        <div>
+            <ul class="nav-links">
+            <li><a href="#about">About</a> </li>
+            <li> <a href="#expirience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">@Aditya <i class="fa-solid fa-sun fa-spin" style="color: #ffd43b;"></i></i></div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="togglemenu()">
+               <span></span>
+               <span></span>
+               <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about"  onclick="togglemenu()">About</a> </li>
+                <li> <a href="#expirience"  onclick="togglemenu()">Experience</a></li>
+                <li><a href="#projects"  onclick="togglemenu()">Projects</a></li>
+                <li><a href="#contact"  onclick="togglemenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profilepic5.png" alt="Aditya profile pic">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello,I'm</p>
+            <h1 class="title">Aditya Sankar Bhattacharya</h1>
+            <p class="section__text__p2">Frontend Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2"
+                onclick="window.open('./assets/Resume.pdf')">
+                  Download CV</button>
+                <button class="btn btn-color-1"
+                onclick="location.href='file:///F:/Portfolio/index.html#contact'">
+              Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="My linkedin profile" class="icon" onclick="location.href='https://www.linkedin.com/in/aditya-sankar-bhattacharya-97ba63209/'">
+                <img src="./assets/github.png" alt="My github profile" class="icon" onclick="location.href='https://github.com/AdityaSankar23'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Get to Know More</p>
+        <h1 class="title">About me <i class="fa-solid fa-ghost fa-bounce" style="color: #ffd43b;"></i></i></h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="assets/aboutpic2.webp" alt="My about pic" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container" id="exp" onclick="location.href='https://drive.google.com/file/d/1swLPcDYJ9EQUoSyal7ZBZbLgV-PNYX5C/view?usp=sharing'">
+                        <img src="./assets/experience.png" alt="expirience icon" class="icon" >
+                         <h3>Internship</h3>
+                         <p>6 months <br /> Visual Basic Developer <br />Wipro Limited </p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="expirience icon" class="icon">
+                         <h3>Education</h3>
+                         <p>B.Tech in Computer Science Engineering<br /> University Of Engineering and Management,Kolkata</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Welcome to my corner of the internet!  I'm Aditya Sankar Bhattacharya, a final-year CSE student with an insatiable appetite for tech, a soft spot for sleek automobiles, and a knack for web development that's stronger than my caffeine addiction (and that's saying something). As you navigate through my digital domain, you'll discover the intersection of my passions – from coding marvels to car enthusiast daydreams. So, fasten your seatbelts, because this website is about to take you on a thrilling ride through the bits, bytes, and horsepower of my life! 🚗💻🚀</p>
+                </div>
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='file:///F:/Portfolio/index.html#expirience'"
+        />
+    </section>
+    <section id="expirience">
+        <p class="section__text__p1">
+            Explore My
+        </p>
+        <h1 class="title">Experience <i class="fa-solid fa-code fa-flip" style="color: #ffd43b;"></i></h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Frontend Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="expirience icon" class="icon">
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="expirience icon" class="icon">
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="expirience icon" class="icon">
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="expirience icon" class="icon">
+                            <div>
+                                <h3>Bootstrap</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="expirience icon" class="icon">
+                            <div>
+                                <h3>ReactJS</h3>
+                                <p>Basics</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="expirience icon" class="icon">
+                            <div>
+                                <h3>UI/UX</h3>
+                                <p>Basics</p>
+                            </div>
+                        </article>
+                       
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Technical</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="expirience icon" class="icon">
+                            <div>
+                                <h3>DataBase Management System</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="expirience icon" class="icon">
+                            <div>
+                                <h3>Java Programming</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="expirience icon" class="icon">
+                            <div>
+                                <h3>C Programming</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                    
+                       <article>
+                            <img src="./assets/checkmark.png" alt="expirience icon" class="icon">
+                            <div>
+                                <h3>Data Structures</h3>
+                                <p>
+                                    Intermediate</p>
+                            </div>
+                        </article>
+                       
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='file:///F:/Portfolio/index.html#projects'"/>
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse My Recent</p>
+        <h1 class="title">Projects <i class="fa-solid fa-laptop-code fa-beat-fade" style="color: #ffd43b;"></i></h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project1pic.png" alt="Project 1" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">Tincat</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn " onclick="location.href='https://github.com/AdityaSankar23/Tincat'">Github</button>
+                    <button class="btn btn-color-2 project-btn " onclick="location.href='https://adityasankar23.github.io/Tincat/'">Live Demo</button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project2pic.png" alt="Project 2" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">StickMaster</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn " onclick="location.href='https://github.com/AdityaSankar23/StickMaster'">Github</button>
+                    <button class="btn btn-color-2 project-btn " onclick="location.href='https://adityasankar23.github.io/StickMaster/'">Live Demo</button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project3pic.png" alt="Project 3" class="project-img">
+                </div>
+                <h2 class="experience-sub-title project-title">ByteRoom</h2>
+                <div class="btn-container">
+                    <button class="btn btn-color-2 project-btn " onclick="location.href='https://github.com/AdityaSankar23/Byte-Room-_6th-Sem'">Github</button>
+                    <button class="btn btn-color-2 project-btn " onclick="location.href='https://serverbyteroom.netlify.app/'">Live Demo</button>
+                </div>
+            </div> </div>
+        </div>
+        <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='file:///F:/Portfolio/index.html#contact'"/>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me <i class="fa-solid fa-phone fa-shake" style="color: #ffd43b;"></i></h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./assets/email.png" alt="Email Icon" class="icon contact-icon email-icon"/>
+                <p><a href="mailto:bhattacharyaaditya61@gmail.com">bhattacharyaaditya61@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./assets/linkedin.png" alt="Linkedin Icon" class="icon contact-icon"/>
+                <p><a href="https://www.linkedin.com/in/aditya-sankar-bhattacharya-97ba63209/">Linkedin</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a> </li>
+                    <li> <a href="#expirience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2023 Aditya Sankar Bhattacharya. All Rights Reserved</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
